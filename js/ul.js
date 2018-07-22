@@ -1,0 +1,1 @@
+setInterval(function(){ getDataInfo(); }, 5000);function getDataInfo(){$.ajax({url: 'getconvo.php',type: 'post',success: function(data) {$('.ulInfo').html(data);}}); }
